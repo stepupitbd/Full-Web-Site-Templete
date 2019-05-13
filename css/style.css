@@ -1,0 +1,157 @@
+.nav-img {
+    position: relative;
+    background-image: url(nav-img.png);
+    width: 100%;
+    height: 700px;
+}
+
+.nav-logo {
+    position: absolute;
+    top: 25px;
+}
+
+.nav-h2 {
+    position: absolute;
+    top: 35%;
+}
+
+.nav-p {
+    position: absolute;
+    top: 48%;
+}
+
+.nav-hr {
+    position: absolute;
+    top: 54%;
+    border: 1px solid #fff;
+}
+
+.hr-b {
+    border: 1px solid #000;
+}
+
+.hr-w {
+    border: 1px solid #fff;
+}
+
+.nav-a {
+    position: absolute;
+    top: 61%;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-a:hover {
+    color: #f4635b;
+    border: 2px solid #f4635b;
+    background-color: #fff;
+}
+
+.work-h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.our-h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mind-t {
+    text-transform: uppercase;
+}
+
+.mind-img {
+    background-image: url(mind-img.png);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.mind-img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.mind-img-t {
+    position: absolute;
+
+}
+
+.let-talk {
+    margin-top: 130px;
+}
+
+
+.live-btn {
+    font-size: 20px;
+    color: #fff !important;
+}
+
+.live-btn:hover {
+    background-color: #fff;
+    color: black !important;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .show_life {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .v-sli {
+        display: none;
+    }
+}
+
+.v-sli-1 {
+    margin-bottom: 50px;
+}
+
+/*
+@media only screen and (min-width: 1200px) {
+    position: absolute !important;
+    top: 50% !important;
+    border: 1px solid #fff !important;
+}
+*/
+
+@media only screen and (max-width: 600px) {
+    .nav-hr {
+        position: absolute !important;
+        top: 61% !important;
+        border: 1px solid #fff !important;
+    }
+
+    .nav-a {
+        position: absolute;
+        top: 68%;
+        border: 2px solid #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .res-sli-pro {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .res-sli-pro-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .res-sli-con {
+        text-align: center;
+    }
+}
